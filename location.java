@@ -30,5 +30,13 @@ return visited;
 public void setVisited(boolean visited) {
 this.visited = visited;
 }
+@Override
+public String toString(){
+    return "location{" + "location=" + location + ", column" + column + ", row" + row"}";
+}
 
+@Override
+public int hashCode(){
+    
+}
 }
