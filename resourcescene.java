@@ -1,8 +1,8 @@
-package Quest_of_the_Ancient_Idol;
+package byui.cit260.Quest_of_the_Ancient_Idol.model;
 
 import java.io.Serializable;
 
-public class resourcescene implements Serializable {
+public class ResourceScene implements Serializable {
  
 private String itemType;
 private int amount;

@@ -1,9 +1,11 @@
-package Quest_of_the_Ancient_Idol
+//package Quest_of_the_Ancient_Idol
+package byui.cit260.Quest_of_the_Ancient_Idol.model;
+
 
 import java.io.Serializable;
 
 
-public class location implements Serializable {
+public class Location implements Serializable {
  
     private int column;
     private int row;
@@ -23,7 +25,7 @@ public void setRow(int row){
     this.row = row;
 }
 public  boolean getVisited(){
-return getVisited;
+return visited;
 }
 public void setVisited(boolean visited) {
 this.visited = visited;

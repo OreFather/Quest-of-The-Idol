@@ -2,10 +2,12 @@
  *
  * @author Colby
  */
-package quest_of_the_ancient_idol;
+package byui.cit260.Quest_of_the_Ancient_Idol.model;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.ArrayList;
+
 public class InventoryItem implements Serializable {
     
     private String itemType;
@@ -13,6 +15,8 @@ public class InventoryItem implements Serializable {
 
     private Game game;
     private ArrayList<ResourceScene> resourceScene = new ArrayList<ResourceScene>();
+    
+    ArrayList<ResourceScene> scene;
     
     public InventoryItem() {
     }
@@ -25,6 +29,7 @@ public class InventoryItem implements Serializable {
     }
     
     public ArrayList<ResourceScene> getScene(){
+        
         return scene;
     }
     public void setScene(ArrayList<ResourceScene> scene){

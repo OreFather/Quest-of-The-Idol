@@ -1,9 +1,9 @@
-package Quest_of_the_Ancient_Idol
+package byui.cit260.Quest_of_the_Ancient_Idol.model;
 
 import java.io.Serializable;
 
 
-public class trapscene implements Serializable {
+public class Trapscene implements Serializable {
  
 private String trapType;
 private boolean trapTriggered;

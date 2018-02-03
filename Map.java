@@ -2,10 +2,11 @@
  *
  * @author Colby
  */
-package quest_of_the_ancient_idol;
+package byui.cit260.Quest_of_the_Ancient_Idol.model;
 
 import java.io.Serializable;
 import java.util.Objects;
+import java.util.ArrayList;
 
 public class Map implements Serializable {
     
