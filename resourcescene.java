@@ -14,10 +14,10 @@ private void setItemType(String itemType){
     this.itemType = itemType;
 }
 private int getAmount() {
-    return getAmount;
+    return amount;
 }
-private int setAmount(int getAmount){
-    this.getAmount = getAmount;
+private void setAmount(int amount) {
+    this.amount = amount;
 }
 
  }
