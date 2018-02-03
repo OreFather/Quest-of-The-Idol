@@ -11,9 +11,24 @@ public class InventoryItem implements Serializable {
     private String itemType;
     private int itemAmmount;
 
-    
+    private Game game;
+    private ArrayList<ResourceScene> resourceScene = new ArrayList<ResourceScene>();
     
     public InventoryItem() {
+    }
+    
+    public Game getGame(){
+        return game;
+    }
+    public void setGame(Game game){
+        this.game = game;
+    }
+    
+    public ArrayList<ResourceScene> getScene(){
+        return scene;
+    }
+    public void setScene(ArrayList<ResourceScene> scene){
+        this.scene = scene;
     }
     
     public String getItemType() {

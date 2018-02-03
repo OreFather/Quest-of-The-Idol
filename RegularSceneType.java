@@ -11,10 +11,18 @@ public class RegularSceneType implements Serializable {
     private String description;
     private boolean blocked;
     private String symbol;
+    
+    private ArrayList<Location> location = new ArrayList<Location>();
 
     public RegularSceneType() {
     }
     
+    public ArrayList<Location> getLocation(){
+        return location;
+    }
+    public void setLocation(ArrayList<Location> location){
+        this.location = location;
+    }
     
     public String getDescription() {
         return description;
